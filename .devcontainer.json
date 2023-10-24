@@ -1,0 +1,18 @@
+{
+    "image": "mcr.microsoft.com/devcontainers/base:jammy",
+    "features": {
+        // Installs Java runtime and build tools
+        "ghcr.io/devcontainers/features/java:1": {
+            "version": "17" // <-- based on javaVersion selected in accelerator
+            ,"installGradle": true // <-- based on buildTool and includeBuildToolWrapper choices in accelerator
+            ,"installMaven": true // <-- based on buildTool and includeBuildToolWrapper choices in accelerator
+        },
+    },
+    "initializeCommand": "echo initializeCommand && sleep 30",
+    "onCreateCommand": "echo onCreateCommand && sleep 30",
+    "updateContentCommand": "echo updateContentCommand && sleep 30",
+    "postCreateCommand": "echo postCreateCommand && sleep 30",
+    "postStartCommand": "echo postStartCommand && sleep 30",
+    "postAttachCommand": "echo postAttachCommand && sleep 30"
+
+}
