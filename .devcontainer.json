@@ -8,11 +8,11 @@
             ,"installMaven": true // <-- based on buildTool and includeBuildToolWrapper choices in accelerator
         },
     },
-    "initializeCommand": "echo initializeCommand && sleep 30",
-    "onCreateCommand": "echo onCreateCommand && sleep 30",
-    "updateContentCommand": "echo updateContentCommand && sleep 30",
-    "postCreateCommand": "echo postCreateCommand && sleep 30",
-    "postStartCommand": "echo postStartCommand && sleep 30",
-    "postAttachCommand": "echo postAttachCommand && sleep 30"
+    "initializeCommand": "echo initializeCommand && sleep 5",
+    "onCreateCommand": "echo onCreateCommand && sleep 5",
+    "updateContentCommand": "echo updateContentCommand && sleep 5",
+    "postCreateCommand": "echo postCreateCommand && sleep 5",
+    "postStartCommand": "echo postStartCommand && sleep 5",
+    "postAttachCommand": "echo postAttachCommand && sleep 5"
 
 }
